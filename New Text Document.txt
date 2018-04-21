@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+ <!-- lightbox gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    
+        <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Exam FE-2</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50"> 
+
+  <header class="container-fluid">
+   
+  </header>
+  
+    <nav class="navbar-expand-sm navbar sticky-top navbar-light bg-light ">  
+
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="header__logo-box">
+            <a class="navbar-brand" href="#"><img src="http://176.32.230.26/leadfreeconsultancy.com/wp-content/uploads/2013/07/birds.fw_.png" alt="logo" class="header__logo"></a>
+          </div>
+          <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            May the Force Of Nature Be with You!
+          </div>   
+      
+        <div class="collapse navbar-collapse justify-content-between" id="nav-content">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1"<a class="navbar-brand" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Location</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Hmm..
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#section41">Videos</a>
+                <a class="dropdown-item" href="#section42">Contact</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="#"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+            <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+          </ul>     
+        </div>       
+      </div>
+    </nav>
+ 
+ <!-- end navbar -->
+
+  <div class="container-fluid">
+    <main id="section1" class="">
+      <div class="main_tour row align-items-center text-center"> 
+        <div class="col text-center"> 
+          <h1 class="">Take a tour</h1>
+          <button type="button" class="btn btn-success">Let's go</button>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+    <section id="section2" class="gallery">
+         <div class="row justify-content-center">
+            <div class="col-md-8">              
+                 <div class="row justify-content-center"> 
+                    <figure class="col-2 ">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                  </a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://cdn.theatlantic.com/assets/media/img/mt/2017/06/GettyImages_675371680/lead_960.jpg?1498239007" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid"> </a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/05/featured_art_heal_forests.jpg?" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="http://cdn.theeventchronicle.com/wp-content/uploads/2014/11/nature-energy.jpg" class="mx-auto d-block img-fluid"></a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="mx-auto d-block img-fluid">
+                  </a>
+                  <figcaption>Fig.1 - A .</figcaption>
+                  </figure>     
+                </div>
+                 <div class="row justify-content-center"> 
+
+                    <figure class="col-2 ">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                  </a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid"> </a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="mx-auto d-block img-fluid"></a>
+                  <figcaption>Fig.1 - A </figcaption>
+                  </figure>
+                  <figure class="col-2">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="https://unsplash.it/600.jpg?image=251" class="mx-auto d-block img-fluid">
+                  </a>
+                  <figcaption>Fig.1 - A .</figcaption>
+                  </figure>     
+                </div>
+              </div>
+            </div>       
+    </section>
+    <!-- end gallery -->
+    <section id="section3" class="section_info container-fluid">
+      <div class="row justify-content-center">
+        <div class="fullscreen-video-wrap">
+          <video src="forest.mov" autoplay="true" loop="true"></video>
+        </div>
+        <div class="location_info col-6 col-xs-12">
+          <h1>Нуждаеш се от помощ?</h1>
+          <h2>Покажи ни къде си:</h2>
+          <p id="errMsg"></p> 
+          <button id="btn" class="btn btn-success" onclick="getLocation()">Вземи</button>  
+          <button id="btn" class="btn btn-success" onclick="save()">Запази</button>  
+          <button id="btn" class="btn btn-success" onclick="load()">Зареди</button>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">:)</button>
+
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">          
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+               <div class="img-wrap">
+                  <img  src="https://res.cloudinary.com/teepublic/image/private/s--Lpor54qv--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1488477288/production/designs/1283951_1.jpg" alt="">
+               </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div  class="col-4 col-xs-10">
+          <div class="row"><h1>Местоположение</h1></div>
+          <div id="location" class="row"></div>
+        </div>
+      </div>
+      
+    </section>
+  <!-- end info section-->
+
+    <section id="section41" class="section_videos container-fluid ">
+      <div class="row row-center  align-items-center">
+
+        <div class="col-md-8 col-sm-12 videos">
+
+          <article class="article-video">
+            <h3>Title</h3>
+            <h5>Date</h5>
+            <div class="row">
+              <div class="col-5">
+                <video class="video" controls="controls"><source src="https://www.w3schools.com/html/mov_bbb.mp4" ></video>
+              </div>
+              <div id="video-text" class="col-7">
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio, a sunt animi, rerum voluptatum asperiores elaborum.</p>
+                 <button type="button" class="btn btn-danger">More..</button>
+              </div>
+            </div>
+          </article>
+          <article class="article-video">
+            <h3>Title</h3>
+            <h5>Date</h5>
+            <div class="row">
+              <div class="col-5">
+                <iframe allowfullscreen src="https://www.youtube.com/embed/mH0sIjAHBVY"></iframe>
+              </div>
+              <div id="video-text" class="col-7">
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio, a sunt animi, rerum voluptatum asperiores elaborum.</p>
+                 <button type="button" class="btn btn-danger">More..</button>
+              </div>
+            </div>
+          </article>
+          <article class="article-video">
+            <h3>Title</h3>
+            <h5>Date</h5>
+            <div class="row">
+              <div class="col-5">
+                <iframe allowfullscreen src="https://www.youtube.com/embed/mH0sIjAHBVY"></iframe>
+              </div>
+              <div id="video-text" class="col-7">
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio, a sunt animi, rerum voluptatum asperiores elaborum.</p>
+                 <button type="button" class="btn btn-danger">More..</button>
+              </div>
+            </div>
+          </article>
+          <article class="article-video">
+            <h3>Title</h3>
+            <h5>Date</h5>
+            <div class="row">
+              <div class="col-5">
+                <iframe allowfullscreen src="https://www.youtube.com/embed/mH0sIjAHBVY"></iframe>
+              </div>
+              <div id="video-text" class="col-7">
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo optio, a sunt animi, rerum voluptatum asperiores elaborum.</p>
+                 <button type="button" class="btn btn-danger">More..</button>
+              </div>
+            </div>
+          </article>
+              
+        </div>
+
+        <aside class="videos-menu col-md-4 col-xs-12 ">
+          <h3>Search</h3>
+           <div class="input-group col-md-10">
+              <input class="form-control" type="search" placeholder="search" id="search-input">
+              <span class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span>             
+            </div>
+            <details>
+                <summary>Advanced serch..</summary>
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <div class="radio">
+                      <label><input type="radio" name="optradio">Option 1</label>
+                    </div>
+                    <div class="radio">
+                      <label><input type="radio" name="optradio">Option 2</label>
+                    </div>
+                    <div class="radio disabled">
+                          <label><input type="radio" name="optradio" disabled>Option 3</label>
+                    </div>
+                  </div>
+            </details>
+          </aside>
+
+      </div>
+    </section>
+  <!-- end videos section -->
+    <footer id="section42" class="row justify-content-center">
+      <div class="col-4">
+        <div class="row"> 
+          <h2>Contact</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt officiis provident temporibus deleniti esse reprehenderit debitis pariatur, amet fugit facere.</p>
+        </div>
+      </div>
+       <div class="col-4">
+          <h2>FAQ</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, eius.</p>
+        </div>
+      <div class="col-3 social-network">
+        <div class="row justify-content-center">
+          <i class="fab fa-facebook-square fa-5x"></i>
+          <i class="fab fa-twitter-square fa-5x"></i>
+          <i class="fab fa-instagram fa-5x"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="script2.js"></script>
+     <!-- lightbox gallery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+  </script>
+  <script src="main.js"></script>
+
+  </body>
+</html>
+
+
+
+
+javscript
+var x = document.getElementById("errMsg");
+var locationDiv = document.getElementById('location');
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+    document.getElementById("location").innerHTML = "<img src='"+img_url+"'>";
+    locationDiv.style.visibility = 'visible';
+}
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+
+function save() {
+    navigator.geolocation.getCurrentPosition(function(p){
+   localStorage.setItem("latitude", p.coords.latitude);
+   localStorage.setItem("longitude", p.coords.longitude)
+}, function(e){console.log(e)})
+    alert("location saved");
+}
+
+function load() {
+    var lat = localStorage.latitude;
+    var lon = localStorage.longitude;
+    var latlon = lat + "," + lon;
+     var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+    document.getElementById("location").innerHTML = "<img src='"+img_url+"'>";
+    locationDiv.style.visibility = 'visible';
+}
+
+$('.myIframe').css('height', $(window).height()+'px');
+
+$(document).ready(function(){
+    $('.navbar-brand').click(function(){
+        $('.alert').show()
+    }) 
+});

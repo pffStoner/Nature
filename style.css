@@ -1,0 +1,238 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.googleapis.com/css?family=Ubuntu);
+}
+
+header{
+	height: 40vh;
+	background: url("https://i.pinimg.com/originals/f1/0e/a8/f10ea8055ebf595434ec15fb38a4b871.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.nav > li {
+	margin:6px;
+	
+}
+.nav > li a{
+	margin:3px;
+	text-decoration: none;
+
+}
+
+.header__logo-box{
+	max-width: 80px;
+	max-height: auto;
+	margin: 0;
+}
+.header__logo-box img{
+	max-width: 100%;
+	margin: 0;
+}
+.alert{
+	display: none;
+}
+.nav-link:hover{
+	border-bottom: 2px solid black;
+	transition: border-bottom 1s linear 0s;
+	
+}
+
+
+
+main{
+	background:linear-gradient(to right bottom,rgba(126,213,111,0.5), rgba(40,180,133,0.8)), 
+	url("http://media.indiedb.com/images/groups/1/6/5120/Grass_Field.jpg");
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	
+
+
+
+}
+
+/*main section*/
+.main_tour{
+	font-family: 'Indie Flower', cursive;
+	width: 50%;
+	height: 50%;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.8), rgba(40,180,133,0.8));
+	border-radius: 10px;
+}
+
+
+/*gallery section*/
+.gallery{
+	background:url(img/bg.jpg);
+	color: pink;
+	background-attachment: fixed;
+}
+.gallery > .row{
+	padding: 10px;
+	
+}
+
+figure { 
+  
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figure img{ 
+	display: block;
+	margin:0 auto;
+	
+}
+
+/*section info*/
+
+.section_info{
+	font-family: myFirstFont;
+	height: 70vh;
+	position: relative;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.8), rgba(0,0,0,6.9));
+	color: white;a
+	
+
+}
+.fullscreen-video-wrap{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 90vh;
+	overflow: hidden;
+	z-index: -3;
+
+}
+
+.fullscreen-video-wrap video{
+	min-height: 60%;
+	min-width: 100%;
+}
+
+.location_info{
+
+}
+.img-wrap img{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+/*section videos*/
+.section_videos{
+	width: 100%;
+	height: 90vh;
+	position: relative;
+	background: linear-gradient(to right bottom,rgba(32, 128, 0,0.9), rgba(0,0,0,6.9));
+
+
+}
+.section_videos > .row{
+	position: relative;
+
+}
+
+.videos{
+
+	height: 90vh;
+	overflow-y: scroll;	
+}
+
+
+
+
+.article-video{
+
+	border-radius: 20px;
+	margin: 0.5em;	
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.8), rgba(0,0,0,6.9));
+}
+.article-video h3{
+	color: white;
+}
+.article-video h5{
+	color: red;
+}
+.article-video:hover{
+	filter: drop-shadow(1px 2px 1px red);
+
+}
+.article-video h5{
+		margin-left: 0.7em;	
+}
+.article-video h3{
+		margin-left: 0.3em;	
+}
+
+
+.videos-menu{
+	position: absolute;
+	border: 2px solid black;
+	min-height: 90vh;
+	right: 0;
+	background: linear-gradient(to right bottom,rgba(32, 128, 0,0.9), rgba(0,0,0,6.9));
+	color: pink;
+
+}
+#video-text{
+	white-space: normal;
+	color: grey;
+	overflow:overlay;
+}
+.video{
+	margin: 0.5em;	
+
+}
+iframe{
+	margin: 0.5em;	
+}
+
+.radio{
+	margin-right: 1em;
+}
+
+
+
+/*footer*/
+footer{
+	height: 30vh;
+	background: linear-gradient(to left top,rgba(32, 128, 0,0.9), rgba(102, 255, 51,0.9));
+}
+.social-network{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-device-width: 1024px){
+
+	main{
+		color: white;
+	}
+
+
+}
