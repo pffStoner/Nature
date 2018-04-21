@@ -1,2 +1,2 @@
 # Nature
-Site for my front end exam
+exercise,bootstrap, grid system, local storage
